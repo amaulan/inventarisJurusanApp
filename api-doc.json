@@ -1,0 +1,790 @@
+{
+  "_type": "export",
+  "__export_format": 2,
+  "__export_date": "2017-02-11T03:45:19.425Z",
+  "__export_source": "insomnia.desktop.app:v3.6.7",
+  "resources": [
+    {
+      "modified": 1486233720979,
+      "created": 1486233720979,
+      "parentId": null,
+      "name": "Invetaris API",
+      "_id": "wrk_5ffecd8bab0942a3b34905fc75c3f027",
+      "_type": "workspace"
+    },
+    {
+      "modified": 1486233778615,
+      "created": 1486233778615,
+      "parentId": "wrk_5ffecd8bab0942a3b34905fc75c3f027",
+      "name": "Base Environment",
+      "data": {},
+      "_id": "env_f90f5b164f31460e989fd42ecb3957b7",
+      "_type": "environment"
+    },
+    {
+      "modified": 1486762521580,
+      "created": 1486233778678,
+      "parentId": "wrk_5ffecd8bab0942a3b34905fc75c3f027",
+      "name": "Default Jar",
+      "cookies": [
+        {
+          "creation": "2017-02-04T19:10:38.706Z",
+          "key": "laravel_session",
+          "value": "eyJpdiI6IjVSc1dLdmc0eitmY2s2V3ZiYUwzZWc9PSIsInZhbHVlIjoicFFwWGQraG9uYkJZdURJZTB6SWdseXliZE5SVUxuXC9SQkxoSlkwOHRHd1ZSeCsrWWRPQzNCUGxnUEtOV01cL2dlSDFuNXJ4YTlqNzAxSmNmVDRSUUhuUT09IiwibWFjIjoiZmVkM2E0MjY1YmEyNTZiMWUwZTA5NjRiOGQ0NTg4Yzc0OTI3M2YxZGU2NzIyMjJkNzQ3MDRhMTE3MTUzNDMwNyJ9",
+          "expires": "2017-02-04T22:11:22.000Z",
+          "maxAge": 7200,
+          "domain": "localhost",
+          "path": "/",
+          "httpOnly": true,
+          "hostOnly": true,
+          "lastAccessed": "2017-02-04T20:33:46.774Z"
+        },
+        {
+          "creation": "2017-02-10T21:35:21.577Z",
+          "key": "laravel_session",
+          "value": "eyJpdiI6IjNGdG1EWngzdHNzTVp2UXRITXY3M2c9PSIsInZhbHVlIjoiQmxyN2NWWGpXeDlDV0ZoTEpHdzRRQ3E3em1GNUZvK0loMFY1eFNiK0hmckgrZjRlU0ZOWHErSkZOXC9rWUpNanNVWEVaSFl1bjdHWlM5ak9udzgxS0FRPT0iLCJtYWMiOiJmYWIwNTE1ZjI0NDIwNWZmNzM1MjdjNmE2ZmIxNzgyYTQwMDQyNTNiNzYyOWNkODdlODVlMTczYWQyZGNhNmRmIn0%3D",
+          "expires": "2017-02-10T23:35:21.000Z",
+          "maxAge": 7200,
+          "path": "/",
+          "httpOnly": true,
+          "hostOnly": true,
+          "domain": "inventaris.dev",
+          "lastAccessed": "2017-02-10T21:35:21.577Z"
+        }
+      ],
+      "_id": "jar_ced51497884e4d59853f01f2ad357c3e",
+      "_type": "cookie_jar"
+    },
+    {
+      "modified": 1486695876294,
+      "created": 1486634927899,
+      "parentId": "wrk_5ffecd8bab0942a3b34905fc75c3f027",
+      "name": "History",
+      "environment": {},
+      "_id": "fld_3288955b4f874cc19e982e38816c8435",
+      "_type": "request_group"
+    },
+    {
+      "modified": 1486621075557,
+      "created": 1486236360714,
+      "parentId": "wrk_5ffecd8bab0942a3b34905fc75c3f027",
+      "name": "Kategori",
+      "environment": {},
+      "_id": "fld_449c42b9793c4e7d9744491c4518e7ed",
+      "_type": "request_group"
+    },
+    {
+      "modified": 1486784705874,
+      "created": 1486695142104,
+      "parentId": "wrk_5ffecd8bab0942a3b34905fc75c3f027",
+      "name": "Supplier - Barang",
+      "environment": {},
+      "_id": "fld_77080b807c4e4f8092ec7feb1fba2b57",
+      "_type": "request_group"
+    },
+    {
+      "modified": 1486624235499,
+      "created": 1486237948869,
+      "parentId": "wrk_5ffecd8bab0942a3b34905fc75c3f027",
+      "name": "Supplier",
+      "environment": {},
+      "_id": "fld_884e6cf846f647be8585e7c2ae65852d",
+      "_type": "request_group"
+    },
+    {
+      "modified": 1486763140162,
+      "created": 1486237072177,
+      "parentId": "wrk_5ffecd8bab0942a3b34905fc75c3f027",
+      "name": "Ruangan",
+      "environment": {},
+      "_id": "fld_b12743871db341439cf36d5249b3fe32",
+      "_type": "request_group"
+    },
+    {
+      "modified": 1486763136508,
+      "created": 1486616208432,
+      "parentId": "wrk_5ffecd8bab0942a3b34905fc75c3f027",
+      "name": "Login",
+      "environment": {},
+      "_id": "fld_bd6f17f757d94a13baf1b867c79dc5ca",
+      "_type": "request_group"
+    },
+    {
+      "modified": 1486696611521,
+      "created": 1486624250178,
+      "parentId": "wrk_5ffecd8bab0942a3b34905fc75c3f027",
+      "name": "Ruangan - Barang",
+      "environment": {},
+      "_id": "fld_e7608ad0211949f493adf854d40592b4",
+      "_type": "request_group"
+    },
+    {
+      "modified": 1486763141275,
+      "created": 1486233739431,
+      "parentId": "wrk_5ffecd8bab0942a3b34905fc75c3f027",
+      "name": "Jurusan",
+      "environment": {},
+      "_id": "fld_ed7e60ccbb354a44a13c4da2e1dc854b",
+      "_type": "request_group"
+    },
+    {
+      "modified": 1486624234568,
+      "created": 1486537076030,
+      "parentId": "wrk_5ffecd8bab0942a3b34905fc75c3f027",
+      "name": "Barang",
+      "environment": {},
+      "_id": "fld_f3f8780bed8a4e6bbee5e755eed9f14d",
+      "_type": "request_group"
+    },
+    {
+      "modified": 1486634961204,
+      "created": 1486634937255,
+      "parentId": "fld_3288955b4f874cc19e982e38816c8435",
+      "url": "http://inventaris.dev/api/history",
+      "name": "history-list",
+      "method": "POST",
+      "body": "",
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "_id": "req_ea128e72c1d949fba7056a013be332a6",
+      "_type": "request"
+    },
+    {
+      "modified": 1486635089844,
+      "created": 1486635059251,
+      "parentId": "fld_3288955b4f874cc19e982e38816c8435",
+      "url": "http://inventaris.dev/api/history/show",
+      "name": "history-show",
+      "method": "POST",
+      "body": "id=1",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_fa8e85773e834472924778a1fa7dca88",
+      "_type": "request"
+    },
+    {
+      "modified": 1486236869242,
+      "created": 1486236360836,
+      "parentId": "fld_449c42b9793c4e7d9744491c4518e7ed",
+      "url": "http://inventaris.dev/api/kategori/update",
+      "name": "kategori-update",
+      "method": "POST",
+      "body": "id=4&kategori_name=meja&desc=testing",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_42fe8e7be5af4980b554abb869c9e114",
+      "_type": "request"
+    },
+    {
+      "modified": 1486237357789,
+      "created": 1486236360778,
+      "parentId": "fld_449c42b9793c4e7d9744491c4518e7ed",
+      "url": "http://inventaris.dev/api/kategori/show",
+      "name": "kategori-show",
+      "method": "POST",
+      "body": "id=4&=&=&=",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_4687ef1f882b4a6caabc440ccadf81cc",
+      "_type": "request"
+    },
+    {
+      "modified": 1486236825368,
+      "created": 1486236360819,
+      "parentId": "fld_449c42b9793c4e7d9744491c4518e7ed",
+      "url": "http://localhost:8000/api/kategori/delete",
+      "name": "kategori-delete",
+      "method": "POST",
+      "body": "id=3&=",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_a8f55cde09134be6b4ce85714e8fd057",
+      "_type": "request"
+    },
+    {
+      "modified": 1486236458109,
+      "created": 1486236360753,
+      "parentId": "fld_449c42b9793c4e7d9744491c4518e7ed",
+      "url": "http://inventaris.dev/api/kategori",
+      "name": "kategori-list",
+      "method": "POST",
+      "body": "",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_b165cc52858744a29f7cec6f67a0c122",
+      "_type": "request"
+    },
+    {
+      "modified": 1486236672567,
+      "created": 1486236360730,
+      "parentId": "fld_449c42b9793c4e7d9744491c4518e7ed",
+      "url": "http://inventaris.dev/api/kategori/store",
+      "name": "kategori-create",
+      "method": "POST",
+      "body": "kategori_name=TESTING&desc=TEsting",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_eb5a4592e17a451e9ffd419ad5457ba6",
+      "_type": "request"
+    },
+    {
+      "modified": 1486695849230,
+      "created": 1486695841729,
+      "parentId": "fld_77080b807c4e4f8092ec7feb1fba2b57",
+      "url": "http://inventaris.dev/api/supplier-barang/show",
+      "name": "supplier-barang-show",
+      "method": "POST",
+      "body": "",
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "_id": "req_37478b4877a044d7b660733c68c980ec",
+      "_type": "request"
+    },
+    {
+      "modified": 1486695856842,
+      "created": 1486695210383,
+      "parentId": "fld_77080b807c4e4f8092ec7feb1fba2b57",
+      "url": "http://inventaris.dev/api/supplier-barang/show",
+      "name": "supplier-barang-list",
+      "method": "POST",
+      "body": "id=1",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "apikey",
+          "value": "bbFj8HGTPHm8x5uMALCP71g6MsK9pw1EzVzRTpdN90eqcv7pIE"
+        },
+        {
+          "name": "",
+          "value": ""
+        },
+        {
+          "name": "token",
+          "value": "6kVPAkW8svYlttROENtH6z8mSv8ti3747BOauKesr2XCcNWhN9O7gtW6dulyiWIN2pWLys0nwbYRwrctCQymAr5qrMSrb1mgFDEfazRZIviHzZK7pt4jTcXOd5ZKEHQyIvoRVuwxppvUpAg3PEXkaoEnWpLgfgUq4dVdDdouapSBKo2kKoWpKw1xhjPmCNKD18RRQF3ZQ0c04PPEb1zShz6vPajAhC322NoJ3TT9UBu9x7zzhZsZroFHg3VKl0Uaag1i0GJRUsB5vqqd5IRLuH9TleNIqmt7r8Erv1miEvBzdBXjk1WSRyQqZMrpOJzkW66KVhLub02udftkQXhvKfy8PijslrOeqORE11WjexpLufNIB1iiNcNr3wyoMDNFUJEVewbztjiBmrLHeSsKcukPsLdLgY2WS6V76T24RObECSKKXwtzm1gO4b3Z1jEw2BQSoQz3KmITnJZTB1kKUMhIkQNSqOIt4n3xPtisAYG0t31JH1Ol"
+        },
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_9d44f37cfb464240864ba650e129944d",
+      "_type": "request"
+    },
+    {
+      "modified": 1486240442938,
+      "created": 1486237948959,
+      "parentId": "fld_884e6cf846f647be8585e7c2ae65852d",
+      "url": "http://inventaris.dev/api/supplier/delete",
+      "name": "supplier-delete",
+      "method": "POST",
+      "body": "id=3&=",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_04ad3aa6fc864ba695e2b7ce0b31a4f7",
+      "_type": "request"
+    },
+    {
+      "modified": 1486240451285,
+      "created": 1486237948944,
+      "parentId": "fld_884e6cf846f647be8585e7c2ae65852d",
+      "url": "http://inventaris.dev/api/supplier/store",
+      "name": "supplier-create",
+      "method": "POST",
+      "body": "supplier_name=Ngga%20Tahu&keterangan=siapa",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_4e4cd895d6ae404e8ead82944c2bfe7c",
+      "_type": "request"
+    },
+    {
+      "modified": 1486239121452,
+      "created": 1486237948892,
+      "parentId": "fld_884e6cf846f647be8585e7c2ae65852d",
+      "url": "http://inventaris.dev/api/supplier/update",
+      "name": "supplier-update",
+      "method": "POST",
+      "body": "id=2&supplier_name=ruan%2099&keterangan=testing",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_c3c085c751524606ba09b5f6650bf9f0",
+      "_type": "request"
+    },
+    {
+      "modified": 1486621084327,
+      "created": 1486237948909,
+      "parentId": "fld_884e6cf846f647be8585e7c2ae65852d",
+      "url": "http://inventaris.dev/api/supplier/show",
+      "name": "supplier-show",
+      "method": "POST",
+      "body": "id=1",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        },
+        {
+          "name": "token",
+          "value": ""
+        }
+      ],
+      "authentication": {},
+      "_id": "req_da7b3207b242466387a2351704d8f997",
+      "_type": "request"
+    },
+    {
+      "modified": 1486240472559,
+      "created": 1486237948975,
+      "parentId": "fld_884e6cf846f647be8585e7c2ae65852d",
+      "url": "http://inventaris.dev/api/supplier",
+      "name": "supplier-list",
+      "method": "POST",
+      "body": "",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_dfa65f9d7130417289f452e39f38e45b",
+      "_type": "request"
+    },
+    {
+      "modified": 1486237509132,
+      "created": 1486237072191,
+      "parentId": "fld_b12743871db341439cf36d5249b3fe32",
+      "url": "http://inventaris.dev/api/ruangan/update",
+      "name": "ruangan-update",
+      "method": "POST",
+      "body": "id=1&ruangan_nama=ruan%2099&desc=testing",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_0791806c4bdc43d5a75e8b19d41441b1",
+      "_type": "request"
+    },
+    {
+      "modified": 1486237401924,
+      "created": 1486237072229,
+      "parentId": "fld_b12743871db341439cf36d5249b3fe32",
+      "url": "http://inventaris.dev/api/ruangan/show",
+      "name": "ruangan-show",
+      "method": "POST",
+      "body": "id=1",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_721491f6b7f44026ba9e30521b25ead7",
+      "_type": "request"
+    },
+    {
+      "modified": 1486237315599,
+      "created": 1486237072282,
+      "parentId": "fld_b12743871db341439cf36d5249b3fe32",
+      "url": "http://inventaris.dev/api/ruangan/store",
+      "name": "ruangan-create",
+      "method": "POST",
+      "body": "ruangan_nama=ruang%201&desc=untuk%20menyimpan%20apa",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_7d12b09918714860a887bfd66a2ce969",
+      "_type": "request"
+    },
+    {
+      "modified": 1486237602709,
+      "created": 1486237072247,
+      "parentId": "fld_b12743871db341439cf36d5249b3fe32",
+      "url": "http://localhost:8000/api/ruangan/delete",
+      "name": "ruangan-delete",
+      "method": "POST",
+      "body": "id=1&=",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_8f9f0f7c9c2947dbb33517843fdfddbc",
+      "_type": "request"
+    },
+    {
+      "modified": 1486762520212,
+      "created": 1486237072268,
+      "parentId": "fld_b12743871db341439cf36d5249b3fe32",
+      "url": "http://inventaris.dev/api/ruangan",
+      "name": "ruangan-list",
+      "method": "POST",
+      "body": "",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        },
+        {
+          "name": "apikey",
+          "value": "bbFj8HGTPHm8x5uMALCP71g6MsK9pw1EzVzRTpdN90eqcv7pIE"
+        },
+        {
+          "name": "token",
+          "value": "W547IWXmSjWYDMILIW8C7EZsf8eujEhHAdvldC10vu3VOPDJMEuQ5TiSvoHiPqWIJMOAFRqYTBLO7vpd2k9xsIN7gnBzFHSil9EeNj36eXykzHsNp27aafrok08oRVESR6IBuJwzhKszBG4gFHOyozVMFcEEjsIPtg2svDasB9Rv34eqxiFEPw6qOXH3FH02xZEULs33uVD3Ovo9s1Se3kaNSOCL7zsi4EFOxSoYaUI4eyTJE4L5NfOeGBvNSjST209s3AOX1j9cJTkG0jdarvewejLFBUWmmw8aJ8mSzm1mzJa3HNV5r9cdNQoMZq3IDBIVT8wHHeDNImXPtIaHR7OBZwUSM2Fd0N97qaSJcPaUbRNPJwbK0uMV5sYGbH648kTtk3aWh76DT2xjk5R4oQbkTURasWOGflsYqCUQFEdSin2Mn1vXUIs4oEhy2ztxQ7hYTj8okZKBufhAn2jHcsvBXAvYTKGVcnDPVyJwy7vVrjiqNlKv"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_a7358a39334b43cc9ae31c16a4835254",
+      "_type": "request"
+    },
+    {
+      "modified": 1486696599249,
+      "created": 1486616218003,
+      "parentId": "fld_bd6f17f757d94a13baf1b867c79dc5ca",
+      "url": "http://inventaris.dev/api/login/",
+      "name": "login",
+      "method": "POST",
+      "body": "username=admin&password=admin",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        },
+        {
+          "name": "apikey",
+          "value": "bbFj8HGTPHm8x5uMALCP71g6MsK9pw1EzVzRTpdN90eqcv7pIE"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_14b3dbde5e6e4973979be44f9eeaa7af",
+      "_type": "request"
+    },
+    {
+      "modified": 1486624562600,
+      "created": 1486624260299,
+      "parentId": "fld_e7608ad0211949f493adf854d40592b4",
+      "url": "http://inventaris.dev/api/ruangan-barang",
+      "name": "ruangan-barang-list",
+      "method": "POST",
+      "body": "",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "token",
+          "value": "1efMDfeKlwc4yrzC2EgyoRUkPXWf5y2Qq3EsUmtJPLI2EnvWM7QkVT5vC2tHyQvt1jBF33DPmorqo6zCBhWB5vi62F6bUe0lK1JCwcVpV4QJhf0rSP5qYwARxGHtpVSZ43Gn0lBaP5hwm5J7X0uFYl6m2ZnMld601EU1RnoVaVdc3mDlQ05ZxIg13Lt4gJwMJS3YOhyLHudyn6N6BSQZTU45jpTfRuxCUHoU471MdV8wXRIW6HfKNlgl8ZblzSh1MpZAi16yy3mBOhqefriNvb9cQy9OoDSXRnSMKvKq9Yd6usjhOURljqir5pYKOfeiQOd6PWeoLIb1ZIry5NanK4mhXDX6Fv42cAUZi7NyMd0t5gBIdo89fuUGge1DI3qqDnEvGMoVS7gMPO4N6alHNUI7EfCtqFeaPJzRfKJQFqzvEc5sHKxUEDwADY8gIZ0wqunWxjryF2gdxDZKu0QbjoiL03tBaypsTyeUSHJAWXlJryjOf4aeeVmgGmyUMioxHKhPJyg31ICmRzjpbcgbkNopgP7hVChahc5gumNd42KyXBr4Ng8iumPbplymRgCvDqBn2MSonB227DqsiZs4BZzc1WtCelCDHlPVSqMsrzMkxbVuquoE2QtLXoAaIvNelMGa1XcI7mfiO8OfucsN27oBs0JaU27b01wTvO2ZgleE4MUZLbbTnqDQzK925pdRGK3spFCYihVkjz3biqlub39buXeaYeJ7YUOFsmRGpNamHK2FYkH5Ot1mZcH2gAXawhc01ghb0FO9hDhxKUsXe63zZQfIG3flXfPkrkO9xuSixWZX99sehmdKxCTPWPMc4fX3i9JGpobyQ8zdNnGvZkEC7nAPEEsm652NRmdUl4JX6CkbC22Fn2lRLoTQFjz88N4CE2cuqXEm3HUiS1XgLEZY8y9Y7YxlVDXrmvEjZJr7G5sXMV2RAsqRqE0QjB9iTOv9zl1y8TsNYixrxtFtQ8IPr5Ucaq7Lm7W4qPDg"
+        },
+        {
+          "name": "apikey",
+          "value": "bbFj8HGTPHm8x5uMALCP71g6MsK9pw1EzVzRTpdN90eqcv7pIE"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_0b52f4fd975d48d2a2d55b8910a8675e",
+      "_type": "request"
+    },
+    {
+      "modified": 1486695191864,
+      "created": 1486695170221,
+      "parentId": "fld_e7608ad0211949f493adf854d40592b4",
+      "url": "http://inventaris.dev/api/ruangan-barang/show",
+      "name": "ruangan-barang-show",
+      "method": "POST",
+      "body": "id=1",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        },
+        {
+          "name": "",
+          "value": ""
+        }
+      ],
+      "authentication": {},
+      "_id": "req_507b45e23e0243668efab9f32bf5a6b8",
+      "_type": "request"
+    },
+    {
+      "modified": 1486234906593,
+      "created": 1486234870541,
+      "parentId": "fld_ed7e60ccbb354a44a13c4da2e1dc854b",
+      "url": "http://inventaris.dev/api/jurusan/store",
+      "name": "jurusan-create",
+      "method": "POST",
+      "body": "jurusan_name=TESTING",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_1634f77d77b144558bdde576653b5a6a",
+      "_type": "request"
+    },
+    {
+      "modified": 1486696618380,
+      "created": 1486233753780,
+      "parentId": "fld_ed7e60ccbb354a44a13c4da2e1dc854b",
+      "url": "http://inventaris.dev/api/jurusan",
+      "name": "jurusan-list",
+      "method": "POST",
+      "body": "",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        },
+        {
+          "name": "apikey",
+          "value": "bbFj8HGTPHm8x5uMALCP71g6MsK9pw1EzVzRTpdN90eqcv7pIE"
+        },
+        {
+          "name": "token",
+          "value": "jpNEzdrfwnl6D6TLhL4p6EwWbmzqLr9yOPBIUpRGZhxUcl8gYrOO1FQpb7fJpfe8NzVMtTqjwnYgCiQmB3Ql0cdxE5ZBYn7eRmhyd3ALuobibmLlaZ59PD4KGOMzS7J6Yvzzt0JeRdddgYIpXDHtbdmxNqCcTo0yg41M0V1rxivbFqscfQBqQnNwOSzg5V1duQaoMfmwkaH8mDe22ciXuwahteaVceK4QM1HmOn0UAtLu69ev3Hn3kevUUVcRg7pGeoY45nutx33CkeqlyRZvVP2b25UD32tBz1LZ0LNrqrYkeNTumbbprtA5GMSxLdVrTo2WVVLpJGjpXG0IoVxrQdI9f9WCqa7Jt0EZXlQy5HPViqpMcVMwF3yRfnfTIIJXYs0X5YWCsEV6XCZoqPa1CIm8vNvFVfRA6EHRAc9J7v7C8NnfUIKad242R9jBEZhlcyBlmBJ8HM6G4N5cxueBGdqTK7NlAcjG0eSIkog4XWj1AWtrKid"
+        },
+        {
+          "name": "",
+          "value": ""
+        }
+      ],
+      "authentication": {},
+      "_id": "req_2749991841944ec7b2ffaab4c841edc3",
+      "_type": "request"
+    },
+    {
+      "modified": 1486235673513,
+      "created": 1486235628737,
+      "parentId": "fld_ed7e60ccbb354a44a13c4da2e1dc854b",
+      "url": "http://inventaris.dev/api/jurusan/show",
+      "name": "jurusan-show",
+      "method": "POST",
+      "body": "id=1&=",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_2b1d18e5c5b94b38ad7ea83743b76a35",
+      "_type": "request"
+    },
+    {
+      "modified": 1486235492511,
+      "created": 1486235150791,
+      "parentId": "fld_ed7e60ccbb354a44a13c4da2e1dc854b",
+      "url": "http://inventaris.dev/api/jurusan/delete",
+      "name": "jurusan-delete",
+      "method": "POST",
+      "body": "id=4",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_c84c6b9607b34011b96238192d7e8cc8",
+      "_type": "request"
+    },
+    {
+      "modified": 1486235993063,
+      "created": 1486235881244,
+      "parentId": "fld_ed7e60ccbb354a44a13c4da2e1dc854b",
+      "url": "http://inventaris.dev/api/jurusan/update",
+      "name": "jurusan-update",
+      "method": "POST",
+      "body": "id=1&jurusan_name=Rekayasa%20Perangkat%20Lunax",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_fdb3f159ff874b8980c3a3269a879e22",
+      "_type": "request"
+    },
+    {
+      "modified": 1486634645507,
+      "created": 1486538187987,
+      "parentId": "fld_f3f8780bed8a4e6bbee5e755eed9f14d",
+      "url": "http://inventaris.dev/api/barang/store",
+      "name": "barang-create",
+      "method": "POST",
+      "body": "nama_barang=jam%20dindingw3&desc=ini%20jam%20dinding&status=1&status_keterangan=wefwef&total=40&tgl_masuk=2017-09-01&barcode=324234234&kategori_id=1&jurusan_id=1&harga=93274923749",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_0f155b1ef7974a6696f1da786a61f7fd",
+      "_type": "request"
+    },
+    {
+      "modified": 1486633900862,
+      "created": 1486540471844,
+      "parentId": "fld_f3f8780bed8a4e6bbee5e755eed9f14d",
+      "url": "http://inventaris.dev/api/barang/update",
+      "name": "barang-update",
+      "method": "POST",
+      "body": "nama_barang=stesting%201ww34534&desc=ini%20jam%20dinding&status=1&status_keterangan=wefwef&total=40&tgl_masuk=2017-09-01&barcode=324234234&kategori_id=1&jurusan_id=1&harga=93274923749&id=1",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_2512584fd08d45558a85ea7afa9c52eb",
+      "_type": "request"
+    },
+    {
+      "modified": 1486540123037,
+      "created": 1486538054382,
+      "parentId": "fld_f3f8780bed8a4e6bbee5e755eed9f14d",
+      "url": "http://inventaris.dev/api/barang/show",
+      "name": "barang-show",
+      "method": "POST",
+      "body": "id=11&=",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_54db77bafc79494cba3c82251d004890",
+      "_type": "request"
+    },
+    {
+      "modified": 1486634658957,
+      "created": 1486538149100,
+      "parentId": "fld_f3f8780bed8a4e6bbee5e755eed9f14d",
+      "url": "http://inventaris.dev/api/barang/delete",
+      "name": "barang-delete",
+      "method": "POST",
+      "body": "id=2",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/x-www-form-urlencoded"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_9c3974eb7f8a4dbdaf63ba672737a99d",
+      "_type": "request"
+    },
+    {
+      "modified": 1486623783037,
+      "created": 1486537088498,
+      "parentId": "fld_f3f8780bed8a4e6bbee5e755eed9f14d",
+      "url": "http://inventaris.dev/api/barang",
+      "name": "barang-list",
+      "method": "POST",
+      "body": "",
+      "parameters": [],
+      "headers": [
+        {
+          "name": "token",
+          "value": "1efMDfeKlwc4yrzC2EgyoRUkPXWf5y2Qq3EsUmtJPLI2EnvWM7QkVT5vC2tHyQvt1jBF33DPmorqo6zCBhWB5vi62F6bUe0lK1JCwcVpV4QJhf0rSP5qYwARxGHtpVSZ43Gn0lBaP5hwm5J7X0uFYl6m2ZnMld601EU1RnoVaVdc3mDlQ05ZxIg13Lt4gJwMJS3YOhyLHudyn6N6BSQZTU45jpTfRuxCUHoU471MdV8wXRIW6HfKNlgl8ZblzSh1MpZAi16yy3mBOhqefriNvb9cQy9OoDSXRnSMKvKq9Yd6usjhOURljqir5pYKOfeiQOd6PWeoLIb1ZIry5NanK4mhXDX6Fv42cAUZi7NyMd0t5gBIdo89fuUGge1DI3qqDnEvGMoVS7gMPO4N6alHNUI7EfCtqFeaPJzRfKJQFqzvEc5sHKxUEDwADY8gIZ0wqunWxjryF2gdxDZKu0QbjoiL03tBaypsTyeUSHJAWXlJryjOf4aeeVmgGmyUMioxHKhPJyg31ICmRzjpbcgbkNopgP7hVChahc5gumNd42KyXBr4Ng8iumPbplymRgCvDqBn2MSonB227DqsiZs4BZzc1WtCelCDHlPVSqMsrzMkxbVuquoE2QtLXoAaIvNelMGa1XcI7mfiO8OfucsN27oBs0JaU27b01wTvO2ZgleE4MUZLbbTnqDQzK925pdRGK3spFCYihVkjz3biqlub39buXeaYeJ7YUOFsmRGpNamHK2FYkH5Ot1mZcH2gAXawhc01ghb0FO9hDhxKUsXe63zZQfIG3flXfPkrkO9xuSixWZX99sehmdKxCTPWPMc4fX3i9JGpobyQ8zdNnGvZkEC7nAPEEsm652NRmdUl4JX6CkbC22Fn2lRLoTQFjz88N4CE2cuqXEm3HUiS1XgLEZY8y9Y7YxlVDXrmvEjZJr7G5sXMV2RAsqRqE0QjB9iTOv9zl1y8TsNYixrxtFtQ8IPr5Ucaq7Lm7W4qPDg"
+        },
+        {
+          "name": "apikey",
+          "value": "bbFj8HGTPHm8x5uMALCP71g6MsK9pw1EzVzRTpdN90eqcv7pIE"
+        }
+      ],
+      "authentication": {},
+      "_id": "req_fcca2c625f0a4b618baab562d62d1fbb",
+      "_type": "request"
+    }
+  ]
+}
